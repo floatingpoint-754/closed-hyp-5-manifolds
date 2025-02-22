@@ -1,6 +1,6 @@
 # Closed hyperbolic 5-manifolds
 
-This repository is a supplement to [arXiv:...], in which we construct and study some closed hyperbolic $5$-manifolds.
+This repository is a supplement to [arXiv:...], in which we construct and study some closed hyperbolic 5-manifolds.
 
 ## Requirements
 
@@ -42,17 +42,17 @@ and a precomputed list of good independent sets in `indsets.txt`.
 The following is a description of each file provided here:
 
 #### `5-manifolds.ipynb`
-The main construction of the $5$-manifolds: the Long $4$-manifolds, their $17$-fold coverings, the adjacency graph, good independent sets, and the quadratic residue code.
+The main construction of the 5-manifolds: the Long 4-manifolds, their 17-fold coverings, the adjacency graph, good independent sets, and the quadratic residue code.
 This notebook also generates the file `indsets.txt` and part of the code of `count-cc.cpp`.
 
 #### `5-manifolds-2.ipynb`
-An analogous notebook for the $4$-manifold $X$, tessellated by $650$ copies of the order-$3$ $120$-cell, and some possible colorings for the right-angled $5$-manifold $Y$.
+An analogous notebook for the 4-manifold $X$, tessellated by 650 copies of the order-3 120-cell, and some possible colorings for the right-angled 5-manifold $Y$.
 
 #### `count-cc.cpp`
 An implementation of the Choi-Park formula, optimized specifically for the manifolds $N_{i,I}^\pm$.
 
 #### `indsets.txt`
-A text file containing $200054$ lines, each containing $17$ sorted and space-separated integers in $\{0, 1, \dots, 271\}$: the labels of a good independent set.
+A text file containing 200054 lines, each containing 17 sorted and space-separated integers in {0, 1, ..., 271}: the labels of a good independent set.
 
 #### `volume.ipynb`
 The (rather short) computation of the volume of $P$, based on a number-theoretical formula of Emery and Kellerhals.
