@@ -37,7 +37,7 @@ A browser tab will open, from which you can open the notebooks (and do your own 
 The repository also contains a precomputed list of good independent sets in `indsets.txt`,
 and the C++ program `count-cc.cpp`, which implements the Choi-Park formula, and can be compiled as follows:
 ```
-$ gcc count-cc.cpp -o count-cc -O3
+$ gcc count-cc.cpp -o count-cc     # optionally add an optimization flag (e.g. -O3)
 ```
 Run the resulting executable without any arguments:
 ```
