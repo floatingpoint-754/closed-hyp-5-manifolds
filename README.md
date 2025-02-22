@@ -39,7 +39,7 @@ and the C++ program `count-cc.cpp`, which implements the Choi-Park formula, and 
 ```
 $ gcc count-cc.cpp -o count-cc -O3
 ```
-Run the resulting application without any arguments:
+Run the resulting executable without any arguments:
 ```
 $ ./count-cc
 ```
