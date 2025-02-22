@@ -4,7 +4,7 @@ This repository is a supplement to [arXiv:...], in which we construct and study 
 
 ## Requirements
 
-Make sure you have [Python 3](https://www.python.org/) and [SageMath](https://www.sagemath.org/) installed.
+Make sure you have [SageMath](https://www.sagemath.org/) installed.
 You will also need a C++ compiler, such as [GCC](https://gcc.gnu.org/), to compile `count-cc.cpp`.
 
 Next, install the GAP package [HAP](https://www.gap-system.org/Packages/hap.html):
@@ -34,8 +34,15 @@ $ sage -n jupyterlab
 
 A browser tab will open, from which you can open the notebooks (and do your own experimentations).
 
-The repository also contains the C++ program `count-cc.cpp`, which implements the Choi-Park formula,
-and a precomputed list of good independent sets in `indsets.txt`.
+The repository also contains a precomputed list of good independent sets in `indsets.txt`,
+and the C++ program `count-cc.cpp`, which implements the Choi-Park formula, and can be compiled as follows:
+```
+$ gcc count-cc.cpp -o count-cc -O3
+```
+Run the resulting application without any arguments:
+```
+$ ./count-cc
+```
 
 ## Details
 
