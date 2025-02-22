@@ -39,7 +39,7 @@ and the C++ program `count-cc.cpp`, which implements the Choi-Park formula, and 
 ```
 $ gcc count-cc.cpp -o count-cc     # optionally add an optimization flag (e.g. -O3)
 ```
-Run the resulting executable without any arguments:
+The resulting executable reads a file called `indsets.txt`, and should be run without any arguments:
 ```
 $ ./count-cc
 ```
