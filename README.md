@@ -1,6 +1,6 @@
 # Closed hyperbolic 5-manifolds
 
-This repository is a supplement to [arXiv:...], in which we construct and study some closed hyperbolic 5-manifolds.
+This repository is a supplement to [arXiv:2502.19225](https://arxiv.org/abs/2502.19225), in which we construct and study some closed hyperbolic 5-manifolds.
 
 ## Requirements
 
